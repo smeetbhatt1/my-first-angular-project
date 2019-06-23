@@ -1,0 +1,7 @@
+<!-- <label for="name">Name</label>
+<input type="text" id="name" #personNameEl>
+<button (click)="onCreatePerson(personNameEl.value)">Create</button> -->
+
+<label for="name">Name</label>
+<input type="text" id="name" [(ngModel)]="enterPersonName">
+<button (click)="onCreatePerson()">Create</button> <!--(click) here is event binding-->
