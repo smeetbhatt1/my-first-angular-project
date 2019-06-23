@@ -1,3 +1,5 @@
-<app-person-input (personCreate)="onPersonCreated($event)"></app-person-input>
-<app-persons [personList]="persons"></app-persons> <!--property binding-->
+<!-- <app-person-input (personCreate)="onPersonCreated($event)"></app-person-input>
+<app-persons [personList]="persons"></app-persons> property binding -->
 
+<a routerLink="/">Person List</a> | <a routerLink="/input">Input</a>
+<router-outlet></router-outlet>
